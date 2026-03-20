@@ -24,7 +24,10 @@ body {
     font-family: Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
+
+    background-color: #111110;
     color: #d5d7c4;
+    height: 100%;
 }
 
 ._container {
@@ -33,11 +36,23 @@ body {
     margin: 0 auto;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100%;
+}
+
+.main {
+    /* flex: 1 1 auto; */
+}
 
 /* ==== HEADER ==== */
 
 .header {
+
     padding: 25px 0;
+
     background-color: #111110;
     /* color: #d7a40e; */
     /* text-align: center; */
@@ -73,6 +88,7 @@ body {
 /* ==== PLANETS SECTION ==== */
 
 .planets__section {
+    padding: 25px 0;
     /* background-color: #323233; */
     background-color: #141412;;
 }
